@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Пробуем автотестирование",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CarefulMore/my_first_autotests.git"
@@ -17,7 +15,7 @@
     "url": "https://github.com/CarefulMore/my_first_autotests/issues"
   },
   "homepage": "https://github.com/CarefulMore/my_first_autotests#readme",
-  "dependencies": {
-    "playwright": "^1.36.2"
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
   }
 }
